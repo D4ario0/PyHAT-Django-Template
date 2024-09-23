@@ -1,5 +1,17 @@
+.env
 .venv
+env/
+venv/
+ENV/
+
+
+.vscode
+.idea
+
 
 __pycache__/
-*.py[cod]
-*$py.class
+.mypy_cache/
+
+
+*.log
+*.pot
