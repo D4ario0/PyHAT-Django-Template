@@ -1,7 +1,7 @@
 # PyHAT BoilerPlate (Django - HTMX - Tailwind with Hot Reloading)
 
 This template helps me spin-up web applications quickly.
-I am using WSL (Ubunutu 22) and Python 3.12, I also assume you have Tailwind installed either via npm or by setting up the standalone binary adding it to the PATH variables. 
+I am using WSL (Ubuntu 22) and Python 3.12, I also assume you have Tailwind installed either via npm or by setting up the standalone binary adding it to the PATH variables. 
 
 If OS conditions are note met, simply open the makefile and change it according to your shell, path or tailwind installations.
 ```
@@ -10,8 +10,8 @@ If OS conditions are note met, simply open the makefile and change it according 
 	make run-server       - Start only the Django server"
 	make watch-tailwind   - Start only the Tailwind CSS watch process"
 	make minify-tailwind  - Minify Tailwind CSS classes for production"
+	make stop	      - Stops all server related processes"
 	make help             - Show this help message"
-	make stop			  - Kills all server related processes"
 ```
 
 ## Get Started
